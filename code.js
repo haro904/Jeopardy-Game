@@ -58,6 +58,7 @@ function eventHandler() {
             cluesArray.splice(clueIndex, 1);
         } else {
             currentScore = 0;
+            scoreBoard.innerText = `Current Score: ${currentScore}`
             h3Tag.innerText = "That was incorrect!";
             gameButton.innerText = "Start New Game?";
         }
